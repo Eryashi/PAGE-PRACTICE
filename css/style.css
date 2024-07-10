@@ -1,0 +1,62 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    
+    background-image:url('../image/bg2.jpg');
+    background-size: 100% 100%;
+    color: rgb(241, 230, 230);
+    font-family: 'arial';
+    backdrop-filter: blur(5px);
+}
+
+
+.navDiv{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+nav{
+    margin-top: 60px;
+
+}
+nav a{
+    justify-content: center;
+    margin-right: 30px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.center{
+    width: 700px;
+    display: flex;
+    text-align:center ;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+     padding: 150px;
+     flex-direction: column;
+        
+}
+
+h1{
+    font-size: 36px;
+}
+button{
+    border-radius: 15px;
+    width: 150px;
+    padding: 8px 8px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    border-width: 0;
+}
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+
